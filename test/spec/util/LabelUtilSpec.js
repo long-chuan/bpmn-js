@@ -41,7 +41,7 @@ describe('LabelUtil', function() {
       expect(connection.label.y).to.be.equal(332);
     }));
 
-    it('should correctly place vertical label', inject(function(modeling, elementRegistry) {
+    it.only('should correctly place vertical label', inject(function(modeling, elementRegistry) {
 
       // given
       var element1 = elementRegistry.get('StartEvent_1'),
